@@ -64,7 +64,7 @@ If you want to use other embeddings, for each item of dataset you should save **
 - embeddings;
 - initial item;
 
-Then you should make a **.csv** files for *train* and *val* datasets, that constains 
+Then you should make a **.csv** files for *train* and *val* datasets, that constain pathes to emeddings.
 
 ## Results
 -----------------------------------
