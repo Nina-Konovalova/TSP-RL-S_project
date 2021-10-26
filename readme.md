@@ -1,7 +1,7 @@
 # RL-Travelling Salesman Problem :robot:
 ----------------------------------
 
-Our project is based on Reinforcement Learning (RL) for solving Travelling Salesman Problem (TSP). Our code and experiments around the paper https://arxiv.org/abs/1802.04240.
+Our project is based on Reinforcement Learning (RL) for solving Travelling Salesman Problem (TSP). Our code and experiments around the paper https://arxiv.org/abs/1802.04240. Here you can find our [presentation](presenation.pdf)
 
 We consider solving TCP solving with RL based on [Pointer Network](https://arxiv.org/abs/1506.03134). 
 
@@ -77,26 +77,26 @@ Then you should make a **.csv** files for *train* and *val* datasets, that const
 
 #### Train and val losses for linear and simple embeddings.
 
-- Pink color for linear embeddings;
-- Blue color for simple embeddings;
+- Pink color for linear embeddings with Dot Attention;
+- Blue color for simple embeddings with Dot Attention;
 
 <p align="center">
   <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_lin_s.jpg" width="350"  alt="Train loss for linear and simple embeddings" >
   <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/val_lin_s.jpg" width="350"  alt="Val loss for linear and simple embeddings" >
 </p>
 
-- Orange color for linear embeddings;
-- Pink color for simple embeddings;
+- Orange color for linear embeddings with Bahdanau Attention;
+- Pink color for simple embeddings with Bahdanau Attention;
 
 <p align="center">
-  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_bah.jpg" width="350" title="hover text">
-  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/val_bah.jpg" width="350" alt="accessibility text" title="A T-Rex on display in the Manchester University Museum">
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_bah.jpg" width="350" alt="Train loss for linear and simple embedding with Bahdanau Attention" title="">
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/val_bah.jpg" width="350" alt="Val loss for linear and simple embedding with Bahdanau Attention" title="">
 </p>
 
 - Pink color for linear embeddings with N = 200_000 (number of samples);
-- Green color for linear embeddings with N = 200_000 (number of samples);
+- Green color for linear embeddings with N = 400_000 (number of samples);
 
 <p align="center">
-  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_N.jpg" width="350" title="hover text">
-  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/val_N.jpg" width="350" alt="accessibility text" title="A T-Rex on display in the Manchester University Museum">
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_N.jpg" width="350" alt="Train loss for linear embedding" title="">
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/val_N.jpg" width="350" alt="Val loss for linear embedding" title="">
 </p>
