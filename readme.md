@@ -25,9 +25,6 @@ For each dataset 4 different types of embeddings were used:
 
 :lock: [DeepWalk](https://paperswithcode.com/method/deepwalk).
 
-## Requirements
------------------------------------
-
 
 ## Quick start
 -----------------------------------
@@ -37,8 +34,31 @@ To train for 30 epochs and infer dataset containing 20 points, using simple embe
 
 If you want to change some parameters, you can find more detailed information about possible arguments in [Documentation.md](https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/DOCUMENTATION.MD).
 
+## Your embeddings
+If you want to use other embeddings, for each item of dataset you should save **.npz** file, that contains:
+
+- embeddings;
+- initial item;
+
+Then you should make a **.csv** files for *train* and *val* datasets, that constains 
+
 ## Results
 -----------------------------------
 
+<p align="center">
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/map_1.png" >
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/map_2.png" >
+</p>
+
+
+#### Train and val losses for linear and simple embeddings.
+
+- Pink color for linear embeddings;
+- Blue color for simple embeddings;
+
+<p align="center">
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_lin_s.jpg", alt="Train loss for linear and simple embeddings" >
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/val_lin_s.jpg", alt="Val loss for linear and simple embeddings" >
+</p>
 ## Credits
 -------------------------------------
