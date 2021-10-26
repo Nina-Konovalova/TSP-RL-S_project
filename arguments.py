@@ -19,7 +19,7 @@ def parse_args():
 
     # dataset
     parser.add_argument('--train_size', default=100_000, type=int,
-                        help='size of val dataset for linear and simple embeddings')
+                        help='size of train dataset for linear and simple embeddings')
     parser.add_argument('--val_size', default=1_000, type=int,
                         help='size of val dataset for linear and simple embeddings')
 
