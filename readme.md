@@ -85,3 +85,7 @@ Then you should make a **.csv** files for *train* and *val* datasets, that const
   <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/val_lin_s.jpg", alt="Val loss for linear and simple embeddings" >
 </p>
 
+<p align="center">
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_bah.jpg" width="350" title="hover text">
+  <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_bah.jpg" width="350" alt="accessibility text">
+</p>
