@@ -1,7 +1,7 @@
 # RL-Travelling Salesman Problem :robot:
 ----------------------------------
 
-Our project is based on Reinforcement Learning (RL) for solving Travelling Salesman Problem (TSP). Our code and experiments around the paper https://arxiv.org/abs/1802.04240. Here you can find our [presentation](presenation.pdf)
+Our project is based on Reinforcement Learning (RL) for solving Travelling Salesman Problem (TSP). Our code and experiments around the paper https://arxiv.org/abs/1802.04240. Here you can find our [presentation](presenation.pdf).
 
 We consider solving TCP solving with RL based on [Pointer Network](https://arxiv.org/abs/1506.03134). 
 
