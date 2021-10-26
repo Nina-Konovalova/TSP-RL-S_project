@@ -32,7 +32,31 @@ To train for 30 epochs and infer dataset containing 20 points, using simple embe
 
 ```python main_not.py```
 
-If you want to change some parameters, you can find more detailed information about possible arguments in [Documentation.md](https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/DOCUMENTATION.MD).
+
+### Different inference commands
+--------------------------------------
+
+### model
+
+`-e` or `--epochs` - number of epochs. Default: **30**;
+
+`-embedding` or `--embedding_size` - size of embeddings. Default: **128**;
+
+`--embedding_type` - type of embeddings. Default: **simple**. Other possible options: **linear**, **other**;
+
+`-b` or `--batch_size` - batch size. Default: **1024**;
+
+
+### dataset
+
+`-train_size` - size of train dataset for linear and simple embeddings. Default: **100_000**;
+
+`--val_size` - size of val dataset for linear and simple embeddings. Default: **1_000**;
+
+`--path_train` - path for other saved train embedding. Default: **OtherNode2Vec_train.csv**;
+
+`--path_val` - path for other saved val embeddings. Default: **OtherNode2Vec_val.csv**.
+
 
 ## Your embeddings
 If you want to use other embeddings, for each item of dataset you should save **.npz** file, that contains:
@@ -60,5 +84,4 @@ Then you should make a **.csv** files for *train* and *val* datasets, that const
   <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/train_lin_s.jpg", alt="Train loss for linear and simple embeddings" >
   <img src="https://github.com/Nina-Konovalova/TCP-RL-Skoltech_project/blob/main/pictures/results/val_lin_s.jpg", alt="Val loss for linear and simple embeddings" >
 </p>
-## Credits
--------------------------------------
+
